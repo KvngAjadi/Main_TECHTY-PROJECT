@@ -9,8 +9,8 @@ const Hero = () => {
     with Techty security.</h1>
     <p className='pt-20'>We have considered our solutions to support every stage of your <br /> growth. We are the fastest and easiest way to launch an <br /> attractive and feature-complete SaaS showcase.</p>
     <div className='flex gap-2 mt-5'>
-        <Button name='Request a Free Demo' style={"bg-[#28D08A] text-[12px] font-space p-3 items-center flex justify-center text-white rounded-md w-40 h-10 font-normal"}/>
-        <Button name='Hire an Expert' style={"bg-black text-white text-[12px] items-center flex justify-center rounded-md w-40 h-10 font-semibold"}/>
+        <Button name='Request a Free Demo' style={"bg-black hover:bg-[#28D08A] text-[12px] font-space p-3 items-center flex justify-center text-white rounded-md w-40 h-10 font-normal"}/>
+        <Button name='Hire an Expert' style={"bg-black hover:bg-[#28D08A] text-white text-[12px] items-center flex justify-center rounded-md w-40 h-10 font-semibold"}/>
 
     </div>
     </div>

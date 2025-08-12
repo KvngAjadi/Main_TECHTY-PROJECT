@@ -8,7 +8,7 @@ const Home = () => {
         <div className='bg-[#F0F8FF]'>
         <NavBar/>
         </div>
-        <div className='bg-[#F0F8FF]'>
+        <div className='bg-[#F0F8FF] h-170'>
         <Hero/>
         </div>
     </div>

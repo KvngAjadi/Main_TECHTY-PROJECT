@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import Hero from '../components/Hero'
 import Advert from '../components/Advert'
 import EmpowerComp from '../components/EmpowerComp'
+import UnleashComp from '../components/UnleashComp'
 
 const Home = () => {
   return (
@@ -18,6 +19,9 @@ const Home = () => {
         </div>
         <div className='bg-white h-auto flex flex-col'>
             <EmpowerComp/>
+        </div>
+        <div className='bg-[#F0F8FF] mt-20 h-auto'>
+            <UnleashComp/>
         </div>
     </div>
 )

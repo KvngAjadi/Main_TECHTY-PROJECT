@@ -4,6 +4,10 @@ import Hero from '../components/Hero'
 import Advert from '../components/Advert'
 import EmpowerComp from '../components/EmpowerComp'
 import UnleashComp from '../components/UnleashComp'
+import PriorityComp from '../components/PriorityComp'
+import PersonalizeComp from '../components/PersonalizeComp'
+import TestimonialComp from '../components/TestimonialComp'
+import DataFetchComp from '../components/DataFetchComp'
 
 const Home = () => {
   return (
@@ -20,8 +24,20 @@ const Home = () => {
         <div className='bg-white h-auto flex flex-col'>
             <EmpowerComp/>
         </div>
-        <div className='bg-[#F0F8FF] mt-20 h-auto'>
+        <div className='bg-[#F0F8FF] mt-20 h-100'>
             <UnleashComp/>
+        </div>
+        <div className='bg-white mt-50 h-140'>
+            <PriorityComp/>
+        </div>
+        <div className='bg-black'>
+            <PersonalizeComp/>
+        </div>
+        <div className='bg-white'>
+            <TestimonialComp/>
+        </div>
+        <div className='w-full h-100 bg-white mt-20'>
+            <DataFetchComp/>
         </div>
     </div>
 )

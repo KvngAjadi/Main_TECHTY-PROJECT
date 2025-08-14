@@ -8,6 +8,8 @@ import PriorityComp from '../components/PriorityComp'
 import PersonalizeComp from '../components/PersonalizeComp'
 import TestimonialComp from '../components/TestimonialComp'
 import DataFetchComp from '../components/DataFetchComp'
+import NewsComp from '../components/NewsComp'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -36,8 +38,14 @@ const Home = () => {
         <div className='bg-white'>
             <TestimonialComp/>
         </div>
-        <div className='w-full h-100 bg-white mt-20'>
+        <div className='w-full h-auto bg-white mt-20'>
             <DataFetchComp/>
+        </div>
+        <div className='bg-[#F0F8FF] h-auto flex flex-col'>
+            <NewsComp/>
+        </div>
+        <div className='bg-[#495460] h-200 '>
+            <Footer/>
         </div>
     </div>
 )

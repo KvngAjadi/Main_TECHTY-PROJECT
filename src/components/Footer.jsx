@@ -51,9 +51,14 @@ const Footer = () => {
         <div className='font-space text-white pr-10'>
         <h1 className='text-2xl font-semibold'>Our Newletter</h1>
         <p className='mt-10 font-normal'>subscribe to our newsletter to <br />get our news delivered to you.</p>
-        <input type="text" placeholder='Email address' className='font-space font-normal w-90 h-12 rounded-md mt-5 p-4 border-1 border-gray-400' />
+        <form className='relative'>
+        <input type="text" placeholder='Email address' className='font-space font-normal w-90 h-13 rounded-md mt-5 p-4 border-1 border-gray-400' />
+        <Button name='John' style={`bg-black absolute top-[21px] py-[12px] px-[15px] right-[1px] rounded-xl text-white hover:bg-[#28D08A]`}/>
+        </form>
         </div>
-        
+        <div>
+          
+        </div>
         </div>
       </div>
   )

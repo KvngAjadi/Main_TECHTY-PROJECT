@@ -47,6 +47,7 @@ const Home = () => {
         <div className='bg-[#495460] h-200 '>
             <Footer/>
         </div>
+        
     </div>
 )
 }

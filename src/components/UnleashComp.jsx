@@ -2,12 +2,12 @@ import React from 'react'
 
 const UnleashComp = () => {
   return (
-    <div className='pl-15  flex gap-20'>
-        <div className='font-space font-bold mt-30'>
+    <div className='pl-15 md:flex md:gap-20 gap-1 h-auto pb-5 text-center'>
+        <div className='font-space font-bold mt-30 max-sm:mt3'>
         <h1 className='text-3xl'><span className='text-[#28D08A]'>Unleash </span>businesses' <br />full potential</h1>
         </div>
-        <div className='flex flex-col gap-2 mt-20'>
-            <img src="/Frame 39.png" alt="SEO Team" className='h-20 w-20'/>
+        <div className='flex flex-col gap-2 mt-20 max-sm:mt-2'>
+            <img src="/Frame 39.png" alt="SEO Team" className=' h-20 w-20'/>
             <p className='font-space text-[20px] font-semibold'>SEO Team  Expert</p>
             <p className='font-space font-normal text-[12px]'>Creating products to meet our users<br />needs and market demands.</p>
         </div>

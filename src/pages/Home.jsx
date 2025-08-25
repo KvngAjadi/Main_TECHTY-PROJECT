@@ -13,6 +13,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
+    
     <div className='flex flex-col'>
         <div className='bg-[#F0F8FF]'>
         <NavBar/>
@@ -26,7 +27,7 @@ const Home = () => {
         <div className='bg-white h-auto flex flex-col'>
             <EmpowerComp/>
         </div>
-        <div className='bg-[#F0F8FF] mt-20 h-100'>
+        <div className='bg-[#F0F8FF] mt-20 h-100 max-sm:h-auto'>
             <UnleashComp/>
         </div>
         <div className='bg-white mt-50 h-140'>
@@ -44,7 +45,7 @@ const Home = () => {
         <div className='bg-[#F0F8FF] h-auto flex flex-col'>
             <NewsComp/>
         </div>
-        <div className='bg-[#495460] h-200 '>
+        <div className='bg-[#495460] h-auto '>
             <Footer/>
         </div>
         
